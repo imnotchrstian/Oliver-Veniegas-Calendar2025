@@ -1,0 +1,74 @@
+body {
+    background-image: url('download.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+ }
+a {
+   text-decoration: none;
+   color: #fff;
+   font-size: 50px;
+   position: absolute;
+   top: 20px;
+   right: 20px; 
+   
+}
+a i {
+   transition: 0.3s;
+}
+a i {
+   transition: transform 0.3s ease-in-out, color 0.3s;
+}
+
+a:hover i {
+   color: #fff;
+   transform: scale(1.2); /* Zoom-in effect */
+}
+a:hover i {
+   color: #fff;
+}
+h1 {
+  font-family: 'Archivo black', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: #a41694;
+  margin-bottom: 10px;
+}
+h2 {
+  font-family: 'sans-serif';
+  font-size: 20px;
+  text-align: center;
+  color: #a41694;
+  margin-top: 0;
+}
+h1, h2 {
+   transition: transform 0.3s ease-in-out, color 0.3s;
+}
+
+h1:hover {
+   transform: scale(1.1); /* Slight zoom effect */
+   color: #a41694; /* Slightly darker color on hover */
+}
+h2:hover {
+   transform: scale(1.1); /* Slight zoom effect */
+   color: #fff; /* Slightly darker color on hover */
+}
+p {
+  text-align: justify;
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.6;
+  text-indent: 40px;
+   max-width: 800px;
+   margin: 20px auto;
+}
+@font-face {
+    font-family: 'Archivo Black';
+    src: url('fonts/ArchivoBlack-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
